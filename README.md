@@ -3,7 +3,7 @@ Based on the great Solarmeter code Big thanks to Harold69
 Data logger Solarpanels Pvoutput logger Pv logger
 
 
-Download the Zip.
+Download the Zip
 Unzip 
 Create a map: Pvouploader and place all the files in this map
 Make sure you have the latest arduino ide
