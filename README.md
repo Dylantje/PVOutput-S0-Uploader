@@ -14,17 +14,19 @@ Update al library
 Install new library: MsTimer2
 Install new library: timekeeping
 
+Open the code to doudle klick in the map Pvouploader on Pvouploader.ino
+
 Change the configfile
 IP
 Gateway
 Subnet
 
-Fil in the Pvoutput Api [ not the readkey ]
+Fill in the Pvoutput Api [ not the readkey ]
 
-Fil in the pin where is the S0 Counter connectet with<br>
-Fil in the pulse of you S0 Counter<br>
-Fil in the sid<br>
-Fil in the 2 or 4 [ 2 solar or 4 usage in Pvoutput ]<br>
+Fill in the pin where is the S0 Counter connectet with<br>
+Fill in the pulse of you S0 Counter<br>
+Fill in the sid<br>
+Fill in the 2 or 4 [ 2 solar or 4 usage in Pvoutput ]<br>
 
 Make sure the numsensors are correct.<br>
 Upload the sketch<br>
@@ -33,4 +35,4 @@ Look for Ip:555 in to your browser<br>
 
 <br>
 First time here..<br>
-so please let me know or things are working.
+So please let me know or things are working.
