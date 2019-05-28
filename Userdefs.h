@@ -19,10 +19,10 @@ static byte subnet[]    = { 255,255,255,0 };                      // ***** Chang
 //*****************************************************************
 #define NUMSENSORS 1                                                 // NUMSENSORS 3 
 //*****************************************************************
-//2 = pin, 1000 = pulse S0 counter, xxxxx = SID, 2 = Upload to PVO 
+//2 = pin, 1000 = pulse S0 counter, xxxxx = SID, 2 = Upload to PVO, 1 = X factor to change the input to a good format
 S0Sensor  S1(2,1000,xxxxx,2,1);                                      // Pin 2 = First SID  Don't use pin 4
 //S0Sensor  S2(3,1000,xxxxx,2,1);                                    // Pin 3 = Second SID  
-//S0Sensor  S3(5,1000,xxxxx,2,1);                                    // Pin 5 = Thirde SID  
+//S0Sensor  S3(5,1000,xxxxx,4,1);                                    // Pin 5 = Third SID  [ the 4 for upload to usage  in Pvoutput ] 
 //*****************************************************************
 BaseSensor* sensors[] = {&S1,};                                      //{&S1,&S2,&S3,};
 #endif
