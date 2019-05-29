@@ -16,7 +16,7 @@ Install new library: timekeeping
 
 Open the code to doudle klick in the map Pvouploader on Pvouploader.ino
 
-Change the configfile
+Change in the userdefs
 IP
 Gateway
 Subnet
