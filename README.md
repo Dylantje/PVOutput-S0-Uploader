@@ -14,7 +14,7 @@ Update all library and Boards<br>
 Install new library: MsTimer2<br>
 Install new library: timekeeping<br><br>
 
-Open the code to doudle klick in the map Pvouploader on Pvouploader.ino
+Open the code to double klick in the map Pvouploader on Pvouploader.ino
 <br>
 Change in the userdefs
 IP
@@ -40,6 +40,6 @@ So please let me know or things are working.
 <br>
 Opensource:  So please donation to a poor child foundation
 <br>
-Perhaps:
+Or perhaps:
 <br>
 https://www.kika.nl/doneren
