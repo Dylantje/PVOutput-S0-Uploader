@@ -29,9 +29,15 @@ Fill in the sid<br>
 Fill in the 2 or 4 [ 2 solar or 4 usage in Pvoutput ]<br>
 
 Make sure the numsensors are correct.<br>
-Upload the sketch<br>
+Choose the right Arduino board, uno and mega works fine <br>
+Check what Com-port the Arduino connectet is<br>
+Verify the sketch<br>
+When there are no errors<br><br>
 
-Look for Ip:555 in to your browser<br>
+Upload the sketch<br>
+Reconnect and connect the powersupply<br>
+
+Look in the webbrouwser: 192.168.x.99:555 in to your browser<br>
 
 <br>
 First time here..<br>
