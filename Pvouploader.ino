@@ -1,4 +1,4 @@
-#define VERSION " Dylantje PVO Uploader V1.3 25-5-2019 "
+#define VERSION " V3.2 PVO S0 Uploader 5-2019 "
 
 #include <SPI.h>
 #include <Ethernet.h>
@@ -7,6 +7,7 @@
 #include <TimeLib.h>
 #include <MsTimer2.h>
 #include <utility/w5100.h>
+
 #include "FlashMini.h"
 #include "S0Sensor.h"
 #include "userdefs.h"
@@ -116,17 +117,7 @@ void loop()
             sensors[i]->CalculateActuals();
         }
 
-      //#ifdef USE_LOGGING
-       //     WriteDateToLog();
-        //    for(byte i = 0; i < NUMSENSORS; i++)
-       //     {   
-    //sensors[i]->Status(&logFile);
-         //       logFile << sensors[i]->Today << ";" << sensors[i]->Actual << ";" << endl;
-        //    }
-         //   logFile << endl;
-         //   logFile.flush();
-     //   #endif
-     // update every 5 minutes or whatever is set in userdefs
+    // update every 5 minutes or whatever is set in userdefs
         if((lastMinute%UPDATEINTERVAL) == 0)
         {
             SendToPvOutput(sensors);
