@@ -10,12 +10,12 @@ Make sure you have the latest arduino ide<br>
 
 Update all boards.<br>
 
-Update al library
-Install new library: MsTimer2
-Install new library: timekeeping
+Update all library and Boards<br>
+Install new library: MsTimer2<br>
+Install new library: timekeeping<br><br>
 
 Open the code to doudle klick in the map Pvouploader on Pvouploader.ino
-
+<br>
 Change in the userdefs
 IP
 Gateway
