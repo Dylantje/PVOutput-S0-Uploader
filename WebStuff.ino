@@ -140,7 +140,7 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("Please enjoy Pvoutput team: Arduino solar meter");
+    client << F("Please become a member of the Pvoutput team: Arduino solar meter");
     client << F(" <br>");    
   }
 
