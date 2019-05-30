@@ -132,7 +132,7 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("Doe een donatie aan een goed doel AUB"); 
+    client << F("Opensource:  So please donation to a poor child foundation "); "); 
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
