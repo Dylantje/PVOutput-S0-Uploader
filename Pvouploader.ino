@@ -7,7 +7,6 @@
 #include <TimeLib.h>
 #include <MsTimer2.h>
 #include <utility/w5100.h>
-
 #include "FlashMini.h"
 #include "S0Sensor.h"
 #include "userdefs.h"
