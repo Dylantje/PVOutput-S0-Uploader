@@ -3,9 +3,9 @@
 //*****************************************************************
 // Network variables
 static byte mac[]       = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };   // MAC address can be any number, as long as it is unique in your local network
-static byte ip[]        = { 192,168,5,99 };                         // ***** IP Change to your ip range *****
+static byte ip[]        = { 192,168,x,99 };                         // ***** IP Change to your ip range *****
 static byte dnsserver[] = { 1,1,1,1};                               // ***** 1,1,1,1 or 8.8.8.8 *****                                                     
-static byte gateway[]   = { 192,168,5,1 };                          // ***** Change to your ip range *****
+static byte gateway[]   = { 192,168,x,1 };                          // ***** Change to your ip range *****
 static byte subnet[]    = { 255,255,255,0 };                        // ***** Change to your ip range *****
 //*****************************************************************
 #define NTP_SERVER "nl.pool.ntp.org"                                // If you are having problems with the time synchonisation, try a different NTP server
