@@ -122,6 +122,8 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F("Werkt de uploader niet, stekker er 20 min. uit laten.");
     client << F(" <br>"); 
+    client << F(" ********************************************"); 
+    client << F(" <br>"); 
     client << F("De volgende dag waardes handmatig aanpassen.");
     client << F(" <br>"); 
     client << F(" ********************************************"); 
