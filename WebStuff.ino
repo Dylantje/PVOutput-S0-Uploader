@@ -130,7 +130,16 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
+    client << F("Doe een donatie aan een goed doel AUB"); 
+    client << F(" <br>"); 
+    client << F(" ********************************************"); 
+    client << F(" <br>"); 
     client << F("Voor info: PVOuploader@gmail.com"); 
+    client << F(" <br>"); 
+    client << F(" ********************************************"); 
+    client << F(" <br>"); 
+    client << F("Please enjoy Pvoutput team: Arduino solar meter");
+    client << F(" <br>");    
   }
 
 int freeRam() 
