@@ -34,8 +34,8 @@ Check what Com-port the Arduino connectet is<br>
 Verify the sketch<br>
 When there are no errors<br><br>
 
-Upload the sketch<br>
-Reconnect and connect the powersupply<br>
+Upload the sketch<br><br>
+Poweroff the powersupply, and reconnect <br>
 
 Look in the webbrouwser: 192.168.x.99:555 in to your browser<br>
 
@@ -49,3 +49,5 @@ Opensource:  So please donation to a poor child foundation
 Or perhaps:
 <br>
 https://www.kika.nl/doneren
+<br>
+https://www.cliniclowns.nl/steun-ons/doneren/eenmalig-schenken
