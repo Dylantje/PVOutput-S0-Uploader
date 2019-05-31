@@ -32,9 +32,9 @@ void setup()
     Ethernet.begin(mac, ip, dnsserver, gateway, subnet);
     // set connect timeout parameters
     W5100.setRetransmissionTime(2000); // 200ms per try
-    W5100.setRetransmissionCount(8);
-
-    // Try to set the time 10 times
+    W5100.setRetransmissionCount(10);   // Try to set the time 10 times
+    
+    
     UpdateTime();
 
     // start listening
