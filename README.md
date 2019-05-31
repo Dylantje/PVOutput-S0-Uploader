@@ -16,10 +16,11 @@ Install new library: timekeeping<br><br>
 
 Open the code to double klick in the map Pvouploader on Pvouploader.ino
 <br>
-Change in the userdefs
-IP
-Gateway
-Subnet
+Change in the userdefs<br>
+MAC [ https://www.miniwebtool.com/mac-address-generator/ ] <br>
+IP<br>
+Gateway<br>
+Subnet<br>
 
 Fill in the Pvoutput Api [ not the readkey ]
 
