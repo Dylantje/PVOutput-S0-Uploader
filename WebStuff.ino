@@ -111,7 +111,7 @@ void ShowStatus(EthernetClient client)
     client << F("DNS =...") << DnsStatus << br;
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("Actuel Date & Time:... ") << DateTime(now()) << br;
+    client << F("Actual Date & Time:... ") << DateTime(now()) << br;
     client << F(" ********************************************"); 
     client << F(" <br>");  
     client << F("Time synced on:...") << DateTime(lastTimeUpdate) << " (in " << ntpRetry << "x)" <<  br;
@@ -120,11 +120,11 @@ void ShowStatus(EthernetClient client)
     client << F("The PVO S0 is running:...") << upTime/24 << "d.&." << upTime%24 << "h" << br;
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("Werkt de uploader niet, stekker er 20 min. uit laten.");
+    client << F("When not working, reconnect powersupply after 20 minutes.");
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("De volgende dag waardes handmatig aanpassen.");
+    client << F("Change the next day the value in Pvoutput, manually.");
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
