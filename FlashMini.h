@@ -23,7 +23,7 @@
 #include <avr/pgmspace.h>
 #include <Arduino.h>
 
-#define FLASH_LIBRARY_VERSION 4
+#define FLASH_LIBRARY_VERSION 5
 
 #ifndef ARDUINO_STREAMING
 #define ARDUINO_STREAMING
