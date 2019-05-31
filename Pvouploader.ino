@@ -1,4 +1,4 @@
-#define VERSION " V3.2 PVO S0 Uploader 5-2019 "   // Change to your name if you want
+#define VERSION "***** Your name ***** PVO S0 Uploader V3.2 5-2019 "   // Change to your name if you want
 
 #include <SPI.h>
 #include <Ethernet.h>
