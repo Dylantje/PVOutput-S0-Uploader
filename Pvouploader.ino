@@ -105,7 +105,7 @@ void loop()
         {
             UpdateTime();
         }
-           }
+           } 
 
     // update every minute
     if(iMinute != lastMinute)
