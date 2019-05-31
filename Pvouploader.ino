@@ -101,7 +101,7 @@ void loop()
             sensors[i]->Save();
         }
         // sync the time at fixed interval
-        if(lastHour == 2 || lastHour == 14)
+     if(lastHour == 2 || lastHour == 6 || lastHour == 10 || lastHour == 14 || lastHour == 18 || lastHour == 22  )
         {
             UpdateTime();
         }
