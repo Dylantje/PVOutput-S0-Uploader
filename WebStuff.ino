@@ -120,7 +120,7 @@ void ShowStatus(EthernetClient client)
     client << F("The PVO S0 is running:...") << upTime/24 << "d.&." << upTime%24 << "h" << br;
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("When not working, reconnect powersupply after 20 minutes.");
+    client << F("Error, reconnect powersupply after 20 minutes.");
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
