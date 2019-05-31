@@ -45,7 +45,7 @@ First time here..<br>
 So please let me know or things are working.
 <br>
 <br>
-Opensource:  So please donation to a poor child foundation
+Opensource:  So please make a donation to a child foundation
 <br>
 Or perhaps:
 <br>
