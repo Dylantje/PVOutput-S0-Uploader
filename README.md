@@ -17,7 +17,7 @@ Install new library: timekeeping<br><br>
 Open the code to double klick in the map Pvouploader on Pvouploader.ino
 <br>
 Change in the userdefs<br>
-MAC [ https://www.miniwebtool.com/mac-address-generator/ ] <br>
+MAC  https://ssl.crox.net/arduinomac/ <br>
 IP<br>
 Gateway<br>
 Subnet<br>
