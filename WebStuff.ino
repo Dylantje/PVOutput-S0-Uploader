@@ -105,7 +105,7 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F(" ********************************************");  
     client << F(" <br>"); 
-    client << F("PVO upload status:..") << pvResponse << " @ " << DateTime(pvResponseTime) << br;
+    client << F("PVOutput status:..") << pvResponse << " @ " << DateTime(pvResponseTime) << br;
     client << F(" ********************************************");
     client << F(" <br>");     
     client << F("DNS =...") << DnsStatus << br;
@@ -132,7 +132,7 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("Opensource: So please make a donation to a poor child foundation ");
+    client << F("Opensource: Make a donation to a poor child foundation ");
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
@@ -140,7 +140,7 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("Please become a member of the Pvoutput team: Arduino Solar meter");
+    client << F("Become a member of the Pvoutput team: Arduino Solar meter");
     client << F(" <br>");    
   }
 
