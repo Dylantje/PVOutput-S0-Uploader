@@ -105,7 +105,7 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F(" ********************************************");  
     client << F(" <br>"); 
-    client << F("PVOutput status:..") << pvResponse << " @ " << DateTime(pvResponseTime) << br;
+    client << F("Status:..") << pvResponse << " @ " << DateTime(pvResponseTime) << br;
     client << F(" ********************************************");
     client << F(" <br>");     
     client << F("DNS =...") << DnsStatus << br;
@@ -114,7 +114,7 @@ void ShowStatus(EthernetClient client)
     client << F("Actual Date & Time:... ") << DateTime(now()) << br;
     client << F(" ********************************************"); 
     client << F(" <br>");  
-    client << F("Time synced on:...") << DateTime(lastTimeUpdate) << " (in " << ntpRetry << "x)" <<  br;
+    client << F("Time synced:...") << DateTime(lastTimeUpdate) << " (in " << ntpRetry << "x)" <<  br;
     client << F(" ********************************************"); 
     client << F(" <br>"); 
     client << F("The PVO S0 is running:...") << upTime/24 << "d.&." << upTime%24 << "h" << br;
@@ -132,7 +132,7 @@ void ShowStatus(EthernetClient client)
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
-    client << F("Opensource: Make a donation to a poor child foundation ");
+    client << F("Opensource: Make a donation to a child foundation ");
     client << F(" <br>"); 
     client << F(" ********************************************"); 
     client << F(" <br>"); 
