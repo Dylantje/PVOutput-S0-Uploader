@@ -1,7 +1,8 @@
 # PVOutput-S0-Uploader
-Based on the great Solarmeter code Big thanks to Harold69
-Data logger Solarpanels Pvoutput logger Pv logger
+Based on the great Solarmeter code, big thanks to Harold65<br>
 
+Dy a Arduino uno with a Ethetnetshield, with a powersupply <br>
+By a S0 meter and change by the install, the input and output [ so the counter counts when the solarpannels are wroking ]<br>
 
 Download the Zip <br>
 Unzip <br>
