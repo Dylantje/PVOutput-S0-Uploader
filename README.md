@@ -1,7 +1,7 @@
 # PVOutput-S0-Uploader
 Based on the great Solarmeter code, big thanks to Harold65<br>
 
-Dy a Arduino uno with a Ethetnetshield, with a powersupply <br>
+By a Arduino Uno with a Ethetnetshield, and a good powersupply <br>
 By a S0 meter and change by the install, the input and output [ so the counter counts when the solarpannels are wroking ]<br>
 
 Download the Zip <br>
@@ -19,7 +19,7 @@ Open the code to double klick in the map Pvouploader on Pvouploader.ino
 <br>
 Change in the userdefs<br>
 MAC  https://ssl.crox.net/arduinomac/ <br>
-IP<br>
+IP: your range, 192.168.X.99 where X is your number<br>
 Gateway<br>
 Subnet<br>
 
